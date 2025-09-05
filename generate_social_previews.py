@@ -199,15 +199,21 @@ def get_team_svg_base64(team_name):
         with open(svg_path, 'rb') as f:
             svg_data = f.read()
         
-        # Convert SVG to white if it exists
-        try:
-            svg_text = svg_data.decode('utf-8')
-            # Add fill="white" to the SVG to ensure it's white on the colored background
-            if '<svg' in svg_text and 'fill="white"' not in svg_text:
-                svg_text = svg_text.replace('<svg', '<svg fill="white"')
-                svg_data = svg_text.encode('utf-8')
-        except:
-            pass
+        # Special handling for Saints and Commanders logos
+        if team_name == "SAINTS" or team_name == "COMMANDERS":
+            # Create a simple text-based logo as fallback
+            first_letter = team_name[0]
+            svg_data = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="50" y="50" font-family="Arial" font-size="50" text-anchor="middle" dominant-baseline="central" fill="white">{first_letter}</text></svg>'.encode('utf-8')
+        else:
+            # Convert SVG to white if it exists
+            try:
+                svg_text = svg_data.decode('utf-8')
+                # Add fill="white" to the SVG to ensure it's white on the colored background
+                if '<svg' in svg_text and 'fill="white"' not in svg_text:
+                    svg_text = svg_text.replace('<svg', '<svg fill="white"')
+                    svg_data = svg_text.encode('utf-8')
+            except:
+                pass
         
         base64_data = base64.b64encode(svg_data).decode('utf-8')
         return f"data:image/svg+xml;base64,{base64_data}"
@@ -291,33 +297,31 @@ def generate_html(games, title, week_number, year):
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
             body {{
-                margin: 0;
-                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
                 background-color: #0a1f44; /* Navy background */
             }}
             .container {{
-                width: 720px;
+                width: 768px;
                 height: 1280px;
-                overflow: hidden;
-                position: relative;
                 background-color: #0a1f44; /* Navy background */
+                display: flex;
+                justify-content: center;
+                align-content: center;
             }}
             .content-container {{
-                width: 100%;
-                max-width: 720px;
-                margin: 0 auto;
-                padding: 20px;
+                width: 640px;
+                margin: 40px 0 0 0;
                 box-sizing: border-box;
             }}
             .team-logo {{
-                width: 32px;
-                height: 32px;
+                width: 40px;
+                height: 40px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                border-radius: 50%;
-                overflow: hidden;
                 flex-shrink: 0;
             }}
             .team-logo img {{
@@ -374,7 +378,8 @@ def generate_html(games, title, week_number, year):
                 width: 48%;
             }}
             .team-info {{
-                margin-left: 8px;
+                margin-left: 16px;
+                margin-right: 16px;
                 flex-grow: 1;
                 overflow: hidden;
             }}
@@ -400,7 +405,7 @@ def generate_html(games, title, week_number, year):
             <div class="content-container">
                 <!-- Header -->
                 <div class="bg-gray-200 text-gray-800 text-center py-6 rounded-lg shadow-lg mb-6 border-b-4 border-yellow-500">
-                    <h1 class="text-3xl font-bold">{year}</h1>
+                    <h1 class="text-3xl font-bold">2025-26</h1>
                     <h2 class="text-4xl font-extrabold tracking-tight">
                         {title}
                     </h2>
@@ -437,13 +442,12 @@ def generate_html(games, title, week_number, year):
                             <div class="team-box" 
                                  style="background: {game['pick'] == 'away' and away_color or 'transparent'}; 
                                         {game['pick'] == 'away' and away_border or ''}">
-                                <div class="team-logo" style="background-color: {getColorFromClass(away_team['color'], 1.0)}">
+                                <div class="team-logo">
                                     {away_team['logo'] and f'<img src="{away_team["logo"]}" alt="{away_team["name"]}" />' or away_team["name"]}
                                 </div>
                                 <div class="team-info">
                                     <div class="team-name text-gray-900">
                                         {away_team["fullName"]}
-                                        {game['pick'] == 'away' and '<span class="ml-1 text-yellow-500">✓</span>' or ''}
                                     </div>
                                     <div class="team-record">
                                         {away_team["record"]}
@@ -454,21 +458,20 @@ def generate_html(games, title, week_number, year):
                             <!-- VS -->
                             <div class="vs-text">@</div>
                             
-                            <!-- Home Team -->
+                            <!-- Home Team - Right aligned -->
                             <div class="team-box" 
                                  style="background: {game['pick'] == 'home' and home_color or 'transparent'}; 
                                         {game['pick'] == 'home' and home_border or ''}">
-                                <div class="team-logo" style="background-color: {getColorFromClass(home_team['color'], 1.0)}">
-                                    {home_team['logo'] and f'<img src="{home_team["logo"]}" alt="{home_team["name"]}" />' or home_team["name"]}
-                                </div>
-                                <div class="team-info">
+                                <div class="team-info" style="text-align: right;">
                                     <div class="team-name text-gray-900">
                                         {home_team["fullName"]}
-                                        {game['pick'] == 'home' and '<span class="ml-1 text-yellow-500">✓</span>' or ''}
                                     </div>
                                     <div class="team-record">
                                         {home_team["record"]}
                                     </div>
+                                </div>
+                                <div class="team-logo">
+                                    {home_team['logo'] and f'<img src="{home_team["logo"]}" alt="{home_team["name"]}" />' or home_team["name"]}
                                 </div>
                             </div>
                         </div>
