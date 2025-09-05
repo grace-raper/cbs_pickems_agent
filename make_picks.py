@@ -105,6 +105,35 @@ def make_picks(page, picks_list):
             except Exception as e:
                 log_event(f"Error making pick for matchup {i+1}: {str(e)}")
         
+        # Enter MNF tiebreaker score (44)
+        try:
+            log_event("Looking for MNF tiebreaker input field")
+            tiebreaker_input = page.query_selector('input[placeholder="Score"][inputmode="numeric"][pattern="[0-9]*"]')
+            
+            if tiebreaker_input:
+                log_event("Found tiebreaker input field, entering score: 44")
+                tiebreaker_input.fill("44")
+                log_event("Tiebreaker score entered")
+            else:
+                log_event("Could not find tiebreaker input field")
+        except Exception as e:
+            log_event(f"Error entering tiebreaker score: {str(e)}")
+        
+        # Click the Save button
+        try:
+            log_event("Looking for Save button")
+            save_button = page.query_selector('button.MuiButton-containedPrimary:has-text("Save")')
+            
+            if save_button:
+                log_event("Found Save button, clicking it")
+                save_button.click()
+                log_event("Save button clicked")
+                time.sleep(2)  # Wait for save to complete
+            else:
+                log_event("Could not find Save button")
+        except Exception as e:
+            log_event(f"Error clicking Save button: {str(e)}")
+        
         log_event(f"Made {picks_made} picks successfully")
         return picks_made
         
