@@ -1,0 +1,2849 @@
+{
+  "timestamp": "2025-09-05T02:41:59.790585",
+  "matchups": [
+    {
+      "game_time": "Time not found",
+      "network": "",
+      "away_team": "COWBOYS",
+      "away_record": "0-1",
+      "home_team": "EAGLES",
+      "home_record": "1-0",
+      "picked_team": "EAGLES"
+    },
+    {
+      "game_time": "Fri @ 5:00 PM",
+      "network": "",
+      "away_team": "CHIEFS",
+      "away_record": "0-0",
+      "home_team": "CHARGERS",
+      "home_record": "0-0",
+      "picked_team": "CHIEFS",
+      "odds": {
+        "away_team_odds": "Chiefs",
+        "home_team_odds": "Chargers",
+        "current_odds": {
+          "away": {
+            "spread": "-3",
+            "spread_odds": "-118",
+            "money": "-175",
+            "total": "o46.5",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "+3",
+            "spread_odds": "-102",
+            "money": "+145",
+            "total": "u46.5",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Chiefs: -2.5",
+          "total": "O/U: 45.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "CHIEFS": "7 Picks",
+          "CHARGERS": "1 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CHIEFS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "CHARGERS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "CHIEFS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "CHIEFS",
+          "team2": "CHARGERS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "BUCCANEERS",
+      "away_record": "0-0",
+      "home_team": "FALCONS",
+      "home_record": "0-0",
+      "picked_team": "BUCCANEERS",
+      "odds": {
+        "away_team_odds": "Buccaneers",
+        "home_team_odds": "Falcons",
+        "current_odds": {
+          "away": {
+            "spread": "-1.5",
+            "spread_odds": "-115",
+            "money": "-125",
+            "total": "o47.5",
+            "total_odds": "-105"
+          },
+          "home": {
+            "spread": "+1.5",
+            "spread_odds": "-105",
+            "money": "+105",
+            "total": "u47.5",
+            "total_odds": "-115"
+          }
+        },
+        "opening_odds": {
+          "spread": "Buccaneers: -1.5",
+          "total": "O/U: 48.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "BUCCANEERS": "7 Picks",
+          "FALCONS": "1 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "FALCONS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BUCCANEERS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BUCCANEERS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "BUCCANEERS",
+          "team2": "FALCONS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "BENGALS",
+      "away_record": "0-0",
+      "home_team": "BROWNS",
+      "home_record": "0-0",
+      "picked_team": "BENGALS",
+      "odds": {
+        "away_team_odds": "Bengals",
+        "home_team_odds": "Browns",
+        "current_odds": {
+          "away": {
+            "spread": "-5.5",
+            "spread_odds": "-105",
+            "money": "-250",
+            "total": "o47.5",
+            "total_odds": "-115"
+          },
+          "home": {
+            "spread": "+5.5",
+            "spread_odds": "-115",
+            "money": "+200",
+            "total": "u47.5",
+            "total_odds": "-105"
+          }
+        },
+        "opening_odds": {
+          "spread": "Bengals: -5.5",
+          "total": "O/U: 45.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "BENGALS": "8 Picks",
+          "BROWNS": "0 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BENGALS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BENGALS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "BENGALS",
+          "team2": "BROWNS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "DOLPHINS",
+      "away_record": "0-0",
+      "home_team": "COLTS",
+      "home_record": "0-0",
+      "picked_team": "COLTS",
+      "odds": {
+        "away_team_odds": "Dolphins",
+        "home_team_odds": "Colts",
+        "current_odds": {
+          "away": {
+            "spread": "+1",
+            "spread_odds": "-115",
+            "money": "-110",
+            "total": "o46.5",
+            "total_odds": "-115"
+          },
+          "home": {
+            "spread": "-1",
+            "spread_odds": "-105",
+            "money": "-110",
+            "total": "u46.5",
+            "total_odds": "-105"
+          }
+        },
+        "opening_odds": {
+          "spread": "Colts: -1.5",
+          "total": "O/U: 45.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "DOLPHINS": "4 Picks",
+          "COLTS": "4 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "COLTS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "DOLPHINS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "DOLPHINS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "COLTS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "COLTS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "DOLPHINS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "DOLPHINS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "COLTS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "DOLPHINS",
+          "team2": "COLTS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "PANTHERS",
+      "away_record": "0-0",
+      "home_team": "JAGUARS",
+      "home_record": "0-0",
+      "picked_team": "JAGUARS",
+      "odds": {
+        "away_team_odds": "Panthers",
+        "home_team_odds": "Jaguars",
+        "current_odds": {
+          "away": {
+            "spread": "+3.5",
+            "spread_odds": "-115",
+            "money": "+155",
+            "total": "o47",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "-3.5",
+            "spread_odds": "-105",
+            "money": "-189",
+            "total": "u47",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Jaguars: -3",
+          "total": "O/U: 46.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "PANTHERS": "0 Picks",
+          "JAGUARS": "8 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "JAGUARS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "JAGUARS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "PANTHERS",
+          "team2": "JAGUARS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "RAIDERS",
+      "away_record": "0-0",
+      "home_team": "PATRIOTS",
+      "home_record": "0-0",
+      "picked_team": "PATRIOTS",
+      "odds": {
+        "away_team_odds": "Raiders",
+        "home_team_odds": "Patriots",
+        "current_odds": {
+          "away": {
+            "spread": "+2.5",
+            "spread_odds": "-102",
+            "money": "+125",
+            "total": "o43.5",
+            "total_odds": "-115"
+          },
+          "home": {
+            "spread": "-2.5",
+            "spread_odds": "-118",
+            "money": "-149",
+            "total": "u43.5",
+            "total_odds": "-105"
+          }
+        },
+        "opening_odds": {
+          "spread": "Patriots: -2.5",
+          "total": "O/U: 43.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "RAIDERS": "2 Picks",
+          "PATRIOTS": "6 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "RAIDERS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "RAIDERS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "PATRIOTS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "PATRIOTS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "PATRIOTS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "PATRIOTS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "PATRIOTS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "PATRIOTS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "RAIDERS",
+          "team2": "PATRIOTS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "CARDINALS",
+      "away_record": "0-0",
+      "home_team": "SAINTS",
+      "home_record": "0-0",
+      "picked_team": "CARDINALS",
+      "odds": {
+        "away_team_odds": "Cardinals",
+        "home_team_odds": "Saints",
+        "current_odds": {
+          "away": {
+            "spread": "-6.5",
+            "spread_odds": "-110",
+            "money": "-303",
+            "total": "o43",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "+6.5",
+            "spread_odds": "-110",
+            "money": "+240",
+            "total": "u43",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Cardinals: -4.5",
+          "total": "O/U: 41.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "CARDINALS": "8 Picks",
+          "SAINTS": "0 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "CARDINALS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "CARDINALS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "CARDINALS",
+          "team2": "SAINTS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "STEELERS",
+      "away_record": "0-0",
+      "home_team": "JETS",
+      "home_record": "0-0",
+      "picked_team": "STEELERS",
+      "odds": {
+        "away_team_odds": "Steelers",
+        "home_team_odds": "Jets",
+        "current_odds": {
+          "away": {
+            "spread": "-2",
+            "spread_odds": "-125",
+            "money": "-149",
+            "total": "o39",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "+2",
+            "spread_odds": "-102",
+            "money": "+125",
+            "total": "u39",
+            "total_odds": "-118"
+          }
+        },
+        "opening_odds": {
+          "spread": "Steelers: -3",
+          "total": "O/U: 39.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "STEELERS": "6 Picks",
+          "JETS": "2 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "JETS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "STEELERS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "STEELERS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "STEELERS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "STEELERS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "JETS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "STEELERS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "STEELERS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "STEELERS",
+          "team2": "JETS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 10:00 AM",
+      "network": "",
+      "away_team": "GIANTS",
+      "away_record": "0-0",
+      "home_team": "COMMANDERS",
+      "home_record": "0-0",
+      "picked_team": "COMMANDERS",
+      "odds": {
+        "away_team_odds": "Giants",
+        "home_team_odds": "Commanders",
+        "current_odds": {
+          "away": {
+            "spread": "+6",
+            "spread_odds": "-110",
+            "money": "+225",
+            "total": "o45.5",
+            "total_odds": "-115"
+          },
+          "home": {
+            "spread": "-6",
+            "spread_odds": "-110",
+            "money": "-278",
+            "total": "u45.5",
+            "total_odds": "-105"
+          }
+        },
+        "opening_odds": {
+          "spread": "Commanders: -7",
+          "total": "O/U: 45.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "GIANTS": "1 Picks",
+          "COMMANDERS": "7 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "COMMANDERS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "GIANTS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "COMMANDERS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "GIANTS",
+          "team2": "COMMANDERS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 1:05 PM",
+      "network": "",
+      "away_team": "TITANS",
+      "away_record": "0-0",
+      "home_team": "BRONCOS",
+      "home_record": "0-0",
+      "picked_team": "BRONCOS",
+      "odds": {
+        "away_team_odds": "Titans",
+        "home_team_odds": "Broncos",
+        "current_odds": {
+          "away": {
+            "spread": "+8.5",
+            "spread_odds": "-115",
+            "money": "+350",
+            "total": "o42.5",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "-8.5",
+            "spread_odds": "-105",
+            "money": "-455",
+            "total": "u42.5",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Broncos: -7.5",
+          "total": "O/U: 41.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "TITANS": "0 Picks",
+          "BRONCOS": "8 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BRONCOS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BRONCOS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "TITANS",
+          "team2": "BRONCOS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 1:05 PM",
+      "network": "",
+      "away_team": "49ERS",
+      "away_record": "0-0",
+      "home_team": "SEAHAWKS",
+      "home_record": "0-0",
+      "picked_team": "49ERS",
+      "odds": {
+        "away_team_odds": "49ers",
+        "home_team_odds": "Seahawks",
+        "current_odds": {
+          "away": {
+            "spread": "-2",
+            "spread_odds": "-118",
+            "money": "-130",
+            "total": "o43.5",
+            "total_odds": "-105"
+          },
+          "home": {
+            "spread": "+2",
+            "spread_odds": "-108",
+            "money": "+110",
+            "total": "u43.5",
+            "total_odds": "-115"
+          }
+        },
+        "opening_odds": {
+          "spread": "49ers: -1.5",
+          "total": "O/U: 45.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "49ERS": "6 Picks",
+          "SEAHAWKS": "2 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "SEAHAWKS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "49ERS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "SEAHAWKS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "49ERS",
+          "team2": "SEAHAWKS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 1:25 PM",
+      "network": "",
+      "away_team": "LIONS",
+      "away_record": "0-0",
+      "home_team": "PACKERS",
+      "home_record": "0-0",
+      "picked_team": "PACKERS",
+      "odds": {
+        "away_team_odds": "Lions",
+        "home_team_odds": "Packers",
+        "current_odds": {
+          "away": {
+            "spread": "+1.5",
+            "spread_odds": "-110",
+            "money": "+115",
+            "total": "o47",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "-1.5",
+            "spread_odds": "-118",
+            "money": "-133",
+            "total": "u47",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Packers: -1.5",
+          "total": "O/U: 49.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "LIONS": "5 Picks",
+          "PACKERS": "3 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "PACKERS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "LIONS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "LIONS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "LIONS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "LIONS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "LIONS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "PACKERS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "PACKERS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "LIONS",
+          "team2": "PACKERS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 1:25 PM",
+      "network": "",
+      "away_team": "TEXANS",
+      "away_record": "0-0",
+      "home_team": "RAMS",
+      "home_record": "0-0",
+      "picked_team": "RAMS",
+      "odds": {
+        "away_team_odds": "Texans",
+        "home_team_odds": "Rams",
+        "current_odds": {
+          "away": {
+            "spread": "+3",
+            "spread_odds": "-110",
+            "money": "+135",
+            "total": "o44",
+            "total_odds": "-105"
+          },
+          "home": {
+            "spread": "-3",
+            "spread_odds": "-110",
+            "money": "-161",
+            "total": "u44",
+            "total_odds": "-125"
+          }
+        },
+        "opening_odds": {
+          "spread": "Rams: -2.5",
+          "total": "O/U: 46.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "TEXANS": "4 Picks",
+          "RAMS": "4 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "RAMS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "TEXANS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "TEXANS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "TEXANS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "TEXANS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "RAMS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "RAMS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "RAMS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "TEXANS",
+          "team2": "RAMS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Sun @ 5:20 PM",
+      "network": "",
+      "away_team": "RAVENS",
+      "away_record": "0-0",
+      "home_team": "BILLS",
+      "home_record": "0-0",
+      "picked_team": "RAVENS",
+      "odds": {
+        "away_team_odds": "Ravens",
+        "home_team_odds": "Bills",
+        "current_odds": {
+          "away": {
+            "spread": "-1",
+            "spread_odds": "-105",
+            "money": "-125",
+            "total": "o50.5",
+            "total_odds": "-115"
+          },
+          "home": {
+            "spread": "+1",
+            "spread_odds": "-115",
+            "money": "+105",
+            "total": "u50.5",
+            "total_odds": "-105"
+          }
+        },
+        "opening_odds": {
+          "spread": "Ravens: +1.5",
+          "total": "O/U: 51.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "RAVENS": "4 Picks",
+          "BILLS": "4 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "BILLS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "RAVENS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "RAVENS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "BILLS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BILLS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "RAVENS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "RAVENS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "BILLS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "RAVENS",
+          "team2": "BILLS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "game_time": "Mon @ 5:15 PM",
+      "network": "",
+      "away_team": "VIKINGS",
+      "away_record": "0-0",
+      "home_team": "BEARS",
+      "home_record": "0-0",
+      "picked_team": "VIKINGS",
+      "odds": {
+        "away_team_odds": "Vikings",
+        "home_team_odds": "Bears",
+        "current_odds": {
+          "away": {
+            "spread": "-1.5",
+            "spread_odds": "-110",
+            "money": "-120",
+            "total": "o44",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "+1.5",
+            "spread_odds": "-110",
+            "money": "+100",
+            "total": "u44",
+            "total_odds": "-110"
+          }
+        },
+        "opening_odds": {
+          "spread": "Vikings: -1.5",
+          "total": "O/U: 44.5"
+        }
+      },
+      "expert_picks": {
+        "team_picks": {
+          "VIKINGS": "4 Picks",
+          "BEARS": "4 Picks"
+        },
+        "experts": [
+          {
+            "name": "Pete Prisco",
+            "role": "Senior Writer",
+            "record": "1-0",
+            "pick": "Senior Writer",
+            "pick_team": "BEARS"
+          },
+          {
+            "name": "Cody Benjamin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "VIKINGS"
+          },
+          {
+            "name": "Jared Dubin",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "VIKINGS"
+          },
+          {
+            "name": "Ryan Wilson",
+            "role": "NFL Draft analyst",
+            "record": "1-0",
+            "pick": "NFL Draft analyst",
+            "pick_team": "BEARS"
+          },
+          {
+            "name": "John Breech",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BEARS"
+          },
+          {
+            "name": "Tyler Sullivan",
+            "role": "Writer",
+            "record": "1-0",
+            "pick": "Writer",
+            "pick_team": "BEARS"
+          },
+          {
+            "name": "Dave Richard",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "VIKINGS"
+          },
+          {
+            "name": "Jamey Eisenberg",
+            "role": "Senior Fantasy Writer",
+            "record": "1-0",
+            "pick": "Senior Fantasy Writer",
+            "pick_team": "VIKINGS"
+          }
+        ]
+      },
+      "matchup_stats": {
+        "teams": {
+          "team1": "VIKINGS",
+          "team2": "BEARS"
+        },
+        "offense_defense_stats": {
+          "team1_offense_vs_team2_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          },
+          "team2_offense_vs_team1_defense": {
+            "TOTAL YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "PASSING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "RUSHING YDS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            },
+            "POINTS": {
+              "team1": {
+                "rank": "(0)",
+                "value": "(0)"
+              },
+              "team2": {
+                "rank": "(0)",
+                "value": "(0)"
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

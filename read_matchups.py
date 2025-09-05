@@ -1,7 +1,7 @@
 from playwright.sync_api import sync_playwright
 import logging
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 import time
 import json
 import os
@@ -458,9 +458,70 @@ def extract_matchups(page):
         log_event(traceback.format_exc())
         return []
 
-def save_matchups_to_json(matchups, filename="matchups.json"):
-    """Save matchups to a JSON file"""
+def get_current_nfl_season():
+    """Determine the current NFL season based on the current date"""
+    current_date = datetime.now()
+    year = current_date.year
+    
+    # NFL season typically starts in September and ends in February of the next year
+    # If we're in January or February, we're in the previous year's season
+    if current_date.month < 3:
+        return f"{year-1}-{year}"
+    else:
+        return f"{year}-{year+1}"
+
+def get_current_nfl_week(reference_date=None):
+    """Determine the current NFL week based on the date"""
+    if reference_date is None:
+        reference_date = datetime.now()
+    
+    # Week 1 of 2025 season starts on September 3, 2025 at 12pm PT
+    # Each week starts on Tuesday at 12pm PT and ends the following Tuesday at 12pm PT
+    week1_start = datetime(2025, 9, 3, 12, 0)  # September 3, 2025 at 12pm PT
+    
+    # Calculate the difference in days
+    days_since_week1 = (reference_date - week1_start).total_seconds() / 86400
+    
+    # Each week is 7 days
+    current_week = int(days_since_week1 / 7) + 1
+    
+    # Ensure week is within reasonable bounds (1-18 for regular season)
+    if current_week < 1:
+        return 1  # Not yet Week 1
+    elif current_week > 18:
+        # Playoff weeks: 19=Wild Card, 20=Divisional, 21=Conference, 22=Super Bowl
+        if current_week <= 22:
+            return current_week
+        else:
+            return "offseason"  # After Super Bowl
+    else:
+        return current_week
+
+def get_output_path(week=None):
+    """Get the output path for the matchups JSON file based on season and week"""
+    season = get_current_nfl_season()
+    
+    if week is None:
+        week = get_current_nfl_week()
+    
+    if isinstance(week, int):
+        week_folder = f"week-{week}"
+    else:
+        week_folder = week  # For playoffs or offseason
+    
+    # Create the directory structure
+    output_dir = os.path.join(season, week_folder)
+    os.makedirs(output_dir, exist_ok=True)
+    
+    return os.path.join(output_dir, "matchups.json")
+
+def save_matchups_to_json(matchups, filename=None):
+    """Save matchups to a JSON file in the appropriate season/week folder"""
     try:
+        # If no filename is specified, use the auto-generated path
+        if filename is None:
+            filename = get_output_path()
+        
         # Create the output directory if it doesn't exist
         output_dir = os.path.dirname(filename)
         if output_dir and not os.path.exists(output_dir):
@@ -519,37 +580,31 @@ def main():
     """Main function to run the script"""
     log_event("Starting script")
     
-    # Define output JSON file path
-    output_file = "matchups.json"
-    
-    with sync_playwright() as p:
-        log_event("Launching browser")
-        browser = p.chromium.launch(headless=False, slow_mo=200)
+    try:
+        # Determine current season and week
+        season = get_current_nfl_season()
+        week = get_current_nfl_week()
+        output_path = get_output_path(week)
         
-        log_event("Creating context with saved storage state")
-        context = browser.new_context(storage_state="cbs_storage.json")
+        log_event(f"Current NFL Season: {season}, Week: {week}")
+        log_event(f"Output will be saved to: {output_path}")
         
-        # Add event listeners for debugging
-        context.on("request", lambda request: log_event(f"Request: {request.method} {request.url}"))
-        context.on("response", lambda response: log_event(f"Response: {response.status} {response.url}"))
-        
-        page = context.new_page()
-        
-        # Navigate to the CBS Sports Pickem pool page
-        log_event("Navigating to CBS Sports Pickem pool page")
-        page.goto("https://picks.cbssports.com/football/pickem/pools/my-pool-id===")
-        
-        # Wait for the page to load - use a more reliable strategy
-        log_event("Waiting for page to load")
-        try:
-            # Wait for a specific element that indicates content has loaded
-            log_event("Waiting for content to appear")
-            page.wait_for_selector('div.MuiBox-root div.MuiStack-root[data-cy]', timeout=60000)
-            log_event("Content has appeared")
+        with sync_playwright() as p:
+            log_event("Launching browser")
+            browser = p.chromium.launch(headless=False, slow_mo=200)
             
-            # Give extra time for dynamic content to load
-            log_event("Waiting additional time for dynamic content")
-            time.sleep(5)
+            log_event("Creating context with saved storage state")
+            context = browser.new_context(storage_state="cbs_storage.json")
+            
+            # Add event listeners for debugging
+            context.on("request", lambda request: log_event(f"Request: {request.method} {request.url}"))
+            context.on("response", lambda response: log_event(f"Response: {response.status} {response.url}"))
+            
+            page = context.new_page()
+            
+            # Navigate to the CBS Sports Pickem pool page
+            log_event("Navigating to CBS Sports Pickem pool page")
+            page.goto("https://picks.cbssports.com/football/pickem/pools/my-pool-id====")
             
             # Extract matchups
             matchups = extract_matchups(page)
@@ -559,26 +614,29 @@ def main():
             
             # Save matchups to JSON file
             if matchups:
-                if save_matchups_to_json(matchups, output_file):
-                    print(f"\n✅ Matchups saved to {output_file}")
+                if save_matchups_to_json(matchups, output_path):
+                    print(f"\n✅ Matchups saved to {output_path}")
                 else:
-                    print(f"\n❌ Failed to save matchups to {output_file}")
+                    print(f"\n❌ Failed to save matchups to {output_path}")
             
-        except Exception as e:
-            log_event(f"Error during page loading or extraction: {str(e)}")
-            print(f"\nError: {str(e)}\n")
+            # Close the browser
+            log_event("Closing browser")
+            browser.close()
             
-            # Take a screenshot to help debug
-            try:
-                page.screenshot(path="page_error.png")
-                log_event("Saved screenshot to page_error.png")
-                print("Screenshot saved to page_error.png for debugging")
-            except Exception as screenshot_error:
-                log_event(f"Failed to take screenshot: {str(screenshot_error)}")
+    except Exception as e:
+        log_event(f"Error during script execution: {str(e)}")
+        log_event(traceback.format_exc())
+        print(f"\nError: {str(e)}\n")
         
-        # Close the browser
-        log_event("Closing browser")
-        browser.close()
+        # Take a screenshot to help debug if page is available
+        try:
+            if 'page' in locals():
+                page.screenshot(path="error_screenshot.png")
+                log_event("Saved screenshot to error_screenshot.png")
+                print("Screenshot saved to error_screenshot.png for debugging")
+        except Exception as screenshot_error:
+            log_event(f"Failed to take screenshot: {str(screenshot_error)}")
+            pass
 
 if __name__ == "__main__":
     main()
