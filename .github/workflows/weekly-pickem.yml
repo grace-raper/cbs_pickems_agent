@@ -1,0 +1,109 @@
+name: Weekly CBS Pickem Automation
+
+on:
+  schedule:
+    # Run every Thursday at 8:30 AM PT (15:30 UTC)
+    - cron: '30 15 * * 4'
+  workflow_dispatch:  # Allow manual triggering
+    inputs:
+      debug_enabled:
+        description: 'Enable debug logging'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  make-picks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
+
+      - name: Set debug mode
+        id: set-debug
+        run: |
+          if [[ "${{ github.event.inputs.debug_enabled }}" == "true" ]]; then
+            echo "DEBUG_MODE=--debug" >> $GITHUB_ENV
+            echo "Debug mode enabled"
+          else
+            echo "DEBUG_MODE=" >> $GITHUB_ENV
+            echo "Debug mode disabled"
+          fi
+
+      - name: Login to CBS Sports
+        run: |
+          echo "Starting login process..."
+          python login.py --headless $DEBUG_MODE
+          echo "Login process completed"
+        env:
+          CBS_USERNAME: "${{ secrets.CBS_USERNAME }}"
+          CBS_PASSWORD: "${{ secrets.CBS_PASSWORD }}"
+          CBS_POOL_URL: "${{ secrets.CBS_POOL_URL }}"
+
+      - name: Read matchups
+        run: |
+          echo "Starting matchup reading process..."
+          python read_matchups.py $DEBUG_MODE
+          echo "Matchup reading completed"
+          ls -la */*/matchups.json || echo "No matchups.json found"
+        env:
+          CBS_USERNAME: "${{ secrets.CBS_USERNAME }}"
+          CBS_PASSWORD: "${{ secrets.CBS_PASSWORD }}"
+          CBS_POOL_URL: "${{ secrets.CBS_POOL_URL }}"
+        
+      - name: Predict winners
+        run: |
+          echo "Starting winner prediction process..."
+          # Get the current season and week folder
+          SEASON_WEEK=$(ls -td 20*/* | head -n 1)
+          echo "Using season/week folder: $SEASON_WEEK"
+          python predict_winners.py "$SEASON_WEEK/matchups.json" $DEBUG_MODE
+          echo "Winner prediction completed"
+          ls -la "$SEASON_WEEK/my_picks.json" || echo "No my_picks.json found"
+        
+      - name: Make picks
+        run: |
+          echo "Starting pick submission process..."
+          # Get the current season and week folder
+          SEASON_WEEK=$(ls -td 20*/* | head -n 1)
+          echo "Using season/week folder: $SEASON_WEEK"
+          python make_picks.py "$SEASON_WEEK/my_picks.json" $DEBUG_MODE
+          echo "Pick submission completed"
+        env:
+          CBS_USERNAME: "${{ secrets.CBS_USERNAME }}"
+          CBS_PASSWORD: "${{ secrets.CBS_PASSWORD }}"
+          CBS_POOL_URL: "${{ secrets.CBS_POOL_URL }}"
+        
+      - name: Generate social previews
+        run: |
+          echo "Starting social preview generation..."
+          # Get the current season and week folder
+          SEASON_WEEK=$(ls -td 20*/* | head -n 1)
+          echo "Using season/week folder: $SEASON_WEEK"
+          python generate_social_previews.py "$SEASON_WEEK" $DEBUG_MODE
+          echo "Social preview generation completed"
+          ls -la "$SEASON_WEEK/my_picks_1.png" "$SEASON_WEEK/my_picks_2.png" || echo "Preview images not found"
+        
+      - name: Upload social preview images
+        uses: actions/upload-artifact@v3
+        with:
+          name: social-previews
+          path: |
+            **/my_picks_1.png
+            **/my_picks_2.png
+          retention-days: 7
