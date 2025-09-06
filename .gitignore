@@ -1,0 +1,8 @@
+cbs_storage.json
+venv/*
+__pycache__
+.venv/*
+.env
+COOKIE_STORAGE_OPTIONS.md
+ENV_SETUP.md
+LOGIN_NOTES.md

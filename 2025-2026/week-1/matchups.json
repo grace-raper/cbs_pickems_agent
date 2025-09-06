@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-09-05T02:41:59.790585",
+  "timestamp": "2025-09-05T14:43:03.085992",
   "matchups": [
     {
       "game_time": "Time not found",
@@ -24,16 +24,16 @@
         "current_odds": {
           "away": {
             "spread": "-3",
-            "spread_odds": "-118",
-            "money": "-175",
-            "total": "o46.5",
+            "spread_odds": "-110",
+            "money": "-167",
+            "total": "o47.5",
             "total_odds": "-110"
           },
           "home": {
             "spread": "+3",
-            "spread_odds": "-102",
-            "money": "+145",
-            "total": "u46.5",
+            "spread_odds": "+100",
+            "money": "+140",
+            "total": "u47.5",
             "total_odds": "-110"
           }
         },
@@ -206,22 +206,22 @@
       "away_record": "0-0",
       "home_team": "FALCONS",
       "home_record": "0-0",
-      "picked_team": "BUCCANEERS",
+      "picked_team": "FALCONS",
       "odds": {
         "away_team_odds": "Buccaneers",
         "home_team_odds": "Falcons",
         "current_odds": {
           "away": {
-            "spread": "-1.5",
-            "spread_odds": "-115",
-            "money": "-125",
+            "spread": "-1",
+            "spread_odds": "-110",
+            "money": "-120",
             "total": "o47.5",
             "total_odds": "-105"
           },
           "home": {
-            "spread": "+1.5",
-            "spread_odds": "-105",
-            "money": "+105",
+            "spread": "+1",
+            "spread_odds": "-110",
+            "money": "+100",
             "total": "u47.5",
             "total_odds": "-115"
           }
@@ -590,22 +590,22 @@
         "home_team_odds": "Colts",
         "current_odds": {
           "away": {
-            "spread": "+1",
-            "spread_odds": "-115",
-            "money": "-110",
-            "total": "o46.5",
-            "total_odds": "-115"
-          },
-          "home": {
             "spread": "-1",
             "spread_odds": "-105",
             "money": "-110",
+            "total": "o46.5",
+            "total_odds": "-110"
+          },
+          "home": {
+            "spread": "+1",
+            "spread_odds": "-125",
+            "money": "-110",
             "total": "u46.5",
-            "total_odds": "-105"
+            "total_odds": "-110"
           }
         },
         "opening_odds": {
-          "spread": "Colts: -1.5",
+          "spread": "Dolphins: +1.5",
           "total": "O/U: 45.5"
         }
       },
@@ -962,7 +962,7 @@
       "away_record": "0-0",
       "home_team": "PATRIOTS",
       "home_record": "0-0",
-      "picked_team": "PATRIOTS",
+      "picked_team": "RAIDERS",
       "odds": {
         "away_team_odds": "Raiders",
         "home_team_odds": "Patriots",
@@ -1346,18 +1346,18 @@
         "home_team_odds": "Jets",
         "current_odds": {
           "away": {
-            "spread": "-2",
+            "spread": "-2.5",
             "spread_odds": "-125",
             "money": "-149",
-            "total": "o39",
+            "total": "o38",
             "total_odds": "-110"
           },
           "home": {
-            "spread": "+2",
-            "spread_odds": "-102",
+            "spread": "+2.5",
+            "spread_odds": "-105",
             "money": "+125",
-            "total": "u39",
-            "total_odds": "-118"
+            "total": "u38",
+            "total_odds": "-110"
           }
         },
         "opening_odds": {
@@ -1538,15 +1538,15 @@
             "spread": "+6",
             "spread_odds": "-110",
             "money": "+225",
-            "total": "o45.5",
-            "total_odds": "-115"
+            "total": "o46",
+            "total_odds": "-110"
           },
           "home": {
             "spread": "-6",
             "spread_odds": "-110",
             "money": "-278",
-            "total": "u45.5",
-            "total_odds": "-105"
+            "total": "u46",
+            "total_odds": "-120"
           }
         },
         "opening_odds": {
@@ -1725,14 +1725,14 @@
         "current_odds": {
           "away": {
             "spread": "+8.5",
-            "spread_odds": "-115",
+            "spread_odds": "-110",
             "money": "+350",
             "total": "o42.5",
             "total_odds": "-110"
           },
           "home": {
             "spread": "-8.5",
-            "spread_odds": "-105",
+            "spread_odds": "-110",
             "money": "-455",
             "total": "u42.5",
             "total_odds": "-110"
@@ -1907,24 +1907,24 @@
       "away_record": "0-0",
       "home_team": "SEAHAWKS",
       "home_record": "0-0",
-      "picked_team": "49ERS",
+      "picked_team": "SEAHAWKS",
       "odds": {
         "away_team_odds": "49ers",
         "home_team_odds": "Seahawks",
         "current_odds": {
           "away": {
-            "spread": "-2",
-            "spread_odds": "-118",
-            "money": "-130",
-            "total": "o43.5",
-            "total_odds": "-105"
+            "spread": "-1.5",
+            "spread_odds": "-110",
+            "money": "-120",
+            "total": "o43",
+            "total_odds": "-110"
           },
           "home": {
-            "spread": "+2",
-            "spread_odds": "-108",
-            "money": "+110",
-            "total": "u43.5",
-            "total_odds": "-115"
+            "spread": "+1.5",
+            "spread_odds": "-110",
+            "money": "+100",
+            "total": "u43",
+            "total_odds": "-110"
           }
         },
         "opening_odds": {
@@ -2096,7 +2096,7 @@
       "away_record": "0-0",
       "home_team": "PACKERS",
       "home_record": "0-0",
-      "picked_team": "PACKERS",
+      "picked_team": "LIONS",
       "odds": {
         "away_team_odds": "Lions",
         "home_team_odds": "Packers",
@@ -2294,15 +2294,15 @@
             "spread": "+3",
             "spread_odds": "-110",
             "money": "+135",
-            "total": "o44",
-            "total_odds": "-105"
+            "total": "o43.5",
+            "total_odds": "-110"
           },
           "home": {
             "spread": "-3",
             "spread_odds": "-110",
             "money": "-161",
-            "total": "u44",
-            "total_odds": "-125"
+            "total": "u43.5",
+            "total_odds": "-110"
           }
         },
         "opening_odds": {
