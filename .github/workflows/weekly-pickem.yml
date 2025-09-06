@@ -18,12 +18,15 @@ on:
 jobs:
   make-picks:
     runs-on: ubuntu-latest
+    # Need write permission to push changes back to the repository
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'pip'
@@ -99,11 +102,38 @@ jobs:
           echo "Social preview generation completed"
           ls -la "$SEASON_WEEK/my_picks_1.png" "$SEASON_WEEK/my_picks_2.png" || echo "Preview images not found"
         
-      - name: Upload social preview images
-        uses: actions/upload-artifact@v3
+      # Upload artifacts as a backup (using v4 of the action)
+      - name: Upload social preview images as artifacts
+        uses: actions/upload-artifact@v4
         with:
           name: social-previews
           path: |
             **/my_picks_1.png
             **/my_picks_2.png
           retention-days: 7
+          
+      # Configure Git for committing changes
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          
+      # Commit and push the generated files
+      - name: Commit and push generated files
+        run: |
+          # Get the current season and week folder
+          SEASON_WEEK=$(ls -td 20*/* | head -n 1)
+          echo "Committing files from: $SEASON_WEEK"
+          
+          # Check if there are any changes to commit
+          git add "$SEASON_WEEK/matchups.json" "$SEASON_WEEK/my_picks.json" "$SEASON_WEEK/my_picks_1.png" "$SEASON_WEEK/my_picks_2.png"
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Get the current date for the commit message
+            CURRENT_DATE=$(date +"%Y-%m-%d")
+            git commit -m "Auto-update picks for $SEASON_WEEK on $CURRENT_DATE"
+            git push
+            echo "Successfully committed and pushed changes"
+          fi
