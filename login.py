@@ -55,14 +55,11 @@ def main():
         log_event("Creating new browser context")
         context = browser.new_context()
         
-        # Add event listeners for various Playwright events
+        # Create a new page without verbose network event listeners
         page = context.new_page()
         
-        # Add event listeners for navigation events
-        page.on("framenavigated", lambda frame: log_event(f"Navigated to: {frame.url}"))
-        page.on("request", lambda request: log_event(f"Request: {request.method} {request.url}"))
-        page.on("response", lambda response: log_event(f"Response: {response.status} {response.url}"))
-        page.on("console", lambda msg: log_event(f"Console {msg.type}: {msg.text}"))
+        # Only log console errors which might be important
+        #page.on("console", lambda msg: log_event(f"Console {msg.type}: {msg.text}") if msg.type == "error" else None)
         
         # Navigate to the CBS Sports Pickem pool URL
         log_event(f"Navigating to: {pool_url}")

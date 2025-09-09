@@ -6,6 +6,10 @@ import time
 import json
 import os
 import traceback
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Set up logging
 logging.basicConfig(
@@ -596,15 +600,22 @@ def main():
             log_event("Creating context with saved storage state")
             context = browser.new_context(storage_state="cbs_storage.json")
             
-            # Add event listeners for debugging
-            context.on("request", lambda request: log_event(f"Request: {request.method} {request.url}"))
-            context.on("response", lambda response: log_event(f"Response: {response.status} {response.url}"))
-            
+            # Create a new page without verbose network event listeners
             page = context.new_page()
             
-            # Navigate to the CBS Sports Pickem pool page
-            log_event("Navigating to CBS Sports Pickem pool page")
-            page.goto("https://picks.cbssports.com/football/pickem/pools/my-pool-id====")
+            # Only log console errors which might be important
+            # page.on("console", lambda msg: log_event(f"Console {msg.type}: {msg.text}") if msg.type == "error" else None)
+            
+            # Navigate to the CBS Sports Pickem pool URL from environment variables
+            target_url = os.getenv("CBS_POOL_URL")
+            if not target_url:
+                log_event("ERROR: CBS_POOL_URL environment variable not found")
+                print("❌ Error: CBS_POOL_URL not found in .env file")
+                print("   Please make sure you have set CBS_POOL_URL in your .env file")
+                return
+                
+            log_event(f"Navigating to: {target_url}")
+            page.goto(target_url)
             
             # Extract matchups
             matchups = extract_matchups(page)
