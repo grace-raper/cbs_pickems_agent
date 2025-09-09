@@ -3,6 +3,6 @@ venv/*
 __pycache__
 .venv/*
 .env
-COOKIE_STORAGE_OPTIONS.md
-ENV_SETUP.md
-LOGIN_NOTES.md
+login_verification.png
+cbs_pickem_workflow.log
+LOCAL_WORKFLOW_SETUP.md

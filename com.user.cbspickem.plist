@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.cbspickem</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/graceraper/Repositories/cbs_playwright_login/run_local_workflow.py</string>
+    </array>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/graceraper/Repositories/cbs_playwright_login</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    </dict>
+    
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>4</integer>  <!-- Thursday (0 = Sunday, 4 = Thursday) -->
+        <key>Hour</key>
+        <integer>8</integer>  <!-- 8 AM -->
+        <key>Minute</key>
+        <integer>30</integer> <!-- 30 minutes past the hour -->
+    </dict>
+    
+    <key>StandardErrorPath</key>
+    <string>/Users/graceraper/Repositories/cbs_playwright_login/launchd.err.log</string>
+    
+    <key>StandardOutPath</key>
+    <string>/Users/graceraper/Repositories/cbs_playwright_login/launchd.out.log</string>
+    
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
